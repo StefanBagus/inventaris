@@ -17,3 +17,6 @@ Route::get('/subbidtekinfo', function () {
     return view('pages.subbidtekinfo');
 });
 
+Route::get('/user', function () {
+    return view('pages.user'); // Sesuaikan path view-nya
+})->name('user.index');

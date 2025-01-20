@@ -1,4 +1,3 @@
-<!-- Sidebar -->
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ url('/') }}">
@@ -41,6 +40,14 @@
         <a class="nav-link" href="{{ url('/subbidtekinfo') }}">
             <i class="fas fa-fw fa-table"></i>
             <span>Logistik SUBBIDTEKINFO</span>
+        </a>
+    </li>
+
+    <!-- Nav Item - User -->
+    <li class="nav-item">
+        <a class="nav-link" href="{{ url('/user') }}">
+            <i class="fas fa-fw fa-user"></i>
+            <span>User</span>
         </a>
     </li>
 </ul>
