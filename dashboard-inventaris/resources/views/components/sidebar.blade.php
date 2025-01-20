@@ -43,11 +43,13 @@
         </a>
     </li>
 
-    <!-- Nav Item - User -->
+    <!-- Nav Item - User (Hanya untuk Admin) -->
+    @if (session('user') && session('user')['roles'] === 'admin')
     <li class="nav-item">
         <a class="nav-link" href="{{ url('/user') }}">
             <i class="fas fa-fw fa-user"></i>
             <span>User</span>
         </a>
     </li>
+    @endif
 </ul>
